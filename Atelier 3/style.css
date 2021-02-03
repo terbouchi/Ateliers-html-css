@@ -12,7 +12,7 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto;
     gap: 20px;
-    padding-top: 4rem;
+    padding-top: 8rem;
 }
 
 .top-section {
@@ -236,6 +236,7 @@ body {
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
         margin: auto;
+        margin-top: -4rem;
     }
     .grid-section .panel-1 {
         grid-column: 1 / span 1;
