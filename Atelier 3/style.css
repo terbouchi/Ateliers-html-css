@@ -21,7 +21,7 @@ body {
     align-items: center;
 }
 
-.panel-1 {
+.canal-1 {
     border-radius: 10px;
     background-color: hsl(263, 55%, 52%);
     background-image: url("images/bg-pattern-quotation.svg");
@@ -31,7 +31,7 @@ body {
     grid-row: 1 / span 1;
 }
 
-.panel-1 #portrait {
+.canal-1 #portrait {
     width: 30%;
     height: 30%;
     border-radius: 100%;
@@ -40,37 +40,37 @@ body {
     margin-left: 20px;
 }
 
-.panel-1 .details {
+.canal-1 .details {
     margin-top: 12px;
     margin-left: -5px;
     display: flex;
     flex-direction: column;
 }
 
-.panel-1 .grad {
+.canal-1 .grad {
     opacity: 50%;
     font-size: .8rem;
 }
 
-.panel-1 .heading {
+.canal-1 .heading {
     font-size: 1.2rem;
     margin: 20px;
 }
 
-.panel-1 .text {
+.canal-1 .text {
     opacity: 70%;
     margin: 20px;
     line-height: 1.3;
 }
 
-.panel-2 {
+.canal-2 {
     border-radius: 10px;
     background-color: hsl(217, 19%, 35%);
     grid-column: 7 / 10;
     grid-row: 1 / span;
 }
 
-.panel-2 #portrait {
+.canal-2 #portrait {
     width: 30%;
     height: 30%;
     border-radius: 100%;
@@ -79,37 +79,37 @@ body {
     margin-left: 20px;
 }
 
-.panel-2 .details {
+.canal-2 .details {
     margin-top: 12px;
     margin-left: -5px;
     display: flex;
     flex-direction: column;
 }
 
-.panel-2 .grad {
+.canal-2 .grad {
     opacity: 50%;
     font-size: .8rem;
 }
 
-.panel-2 .heading {
+.canal-2 .heading {
     font-size: 1.2rem;
     margin: 20px;
 }
 
-.panel-2 .text {
+.canal-2 .text {
     opacity: 70%;
     margin: 20px;
     line-height: 1.3;
 }
 
-.panel-3 {
+.canal-3 {
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
     grid-column: 1 / 4;
     grid-row: 2 / span 1;
 }
 
-.panel-3 #portrait {
+.canal-3 #portrait {
     width: 35%;
     height: 35%;
     border-radius: 100%;
@@ -117,44 +117,44 @@ body {
     margin-left: 20px;
 }
 
-.panel-3 .details {
+.canal-3 .details {
     margin-top: 12px;
     margin-left: -5px;
     display: flex;
     flex-direction: column;
 }
 
-.panel-3 .name {
+.canal-3 .name {
     filter: brightness(50%);
 }
 
-.panel-3 .grad {
+.canal-3 .grad {
     filter: brightness(50%);
     opacity: 50%;
     font-size: .8rem;
 }
 
-.panel-3 .heading {
+.canal-3 .heading {
     filter: brightness(50%);
     font-size: 1.2rem;
     margin: 20px;
 }
 
-.panel-3 .text {
+.canal-3 .text {
     filter: brightness(50%);
     opacity: 70%;
     margin: 20px;
     line-height: 1.3;
 }
 
-.panel-4 {
+.canal-4 {
     border-radius: 10px;
     background-color: hsl(219, 29%, 14%);
     grid-column: 4 / 10;
     grid-row: 2 / span 1;
 }
 
-.panel-4 #portrait {
+.canal-4 #portrait {
     width: 30%;
     height: 30%;
     border-radius: 100%;
@@ -163,37 +163,37 @@ body {
     margin-left: 20px;
 }
 
-.panel-4 .details {
+.canal-4 .details {
     margin-top: 12px;
     margin-left: -5px;
     display: flex;
     flex-direction: column;
 }
 
-.panel-4 .grad {
+.canal-4 .grad {
     opacity: 50%;
     font-size: .8rem;
 }
 
-.panel-4 .heading {
+.canal-4 .heading {
     font-size: 1.2rem;
     margin: 20px;
 }
 
-.panel-4 .text {
+.canal-4 .text {
     opacity: 70%;
     margin: 20px;
     line-height: 1.3;
 }
 
-.panel-5 {
+.canal-5 {
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
     grid-column: 10 / span 3;
     grid-row: 1 / span 2;
 }
 
-.panel-5 #portrait {
+.canal-5 #portrait {
     width: 35%;
     height: 35%;
     border-radius: 100%;
@@ -201,90 +201,90 @@ body {
     margin-left: 20px;
 }
 
-.panel-5 .details {
+.canal-5 .details {
     margin-top: 12px;
     margin-left: -5px;
     display: flex;
     flex-direction: column;
 }
 
-.panel-5 .name {
+.canal-5 .name {
     filter: brightness(50%);
 }
 
-.panel-5 .grad {
+.canal-5 .grad {
     filter: brightness(50%);
     opacity: 50%;
     font-size: .8rem;
 }
 
-.panel-5 .heading {
+.canal-5 .heading {
     filter: brightness(50%);
     font-size: 1.2rem;
     margin: 20px;
 }
 
-.panel-5 .text {
+.canal-5 .text {
     filter: brightness(50%);
     opacity: 70%;
     margin: 20px;
     line-height: 1.3;
 }
 
-@media (max-width:800px) {
+@media (max-width:1025px) {
     .grid-section {
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
         margin: auto;
         margin-top: -4rem;
     }
-    .grid-section .panel-1 {
+    .grid-section .canal-1 {
         grid-column: 1 / span 1;
         grid-row: 1 / span 1;
         padding-left: 15px;
         padding-right: 15px;
     }
-    .grid-section .panel-1 .text {
+    .grid-section .canal-1 .text {
         line-height: 1.4;
         font-size: 0.9rem;
     }
-    .grid-section .panel-2 {
+    .grid-section .canal-2 {
         grid-column: 1 / span 1;
         grid-row: 2 / span 1;
         padding-left: 15px;
         padding-right: 15px;
     }
-    .grid-section .panel-2 .text {
+    .grid-section .canal-2 .text {
         line-height: 1.4;
         font-size: 0.9rem;
     }
-    .grid-section .panel-3 {
+    .grid-section .canal-3 {
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
         padding-left: 15px;
         padding-right: 15px;
     }
-    .grid-section .panel-3 .text {
+    .grid-section .canal-3 .text {
         line-height: 1.4;
         font-size: 0.9rem;
     }
-    .grid-section .panel-4 {
+    .grid-section .canal-4 {
         grid-column: 1 / span 1;
         grid-row: 4 / span 1;
         padding-left: 15px;
         padding-right: 15px;
     }
-    .grid-section .panel-4 .text {
+    .grid-section .canal-4 .text {
         line-height: 1.4;
         font-size: 0.9rem;
     }
-    .grid-section .panel-5 {
+    .grid-section .canal-5 {
         grid-column: 1 / span 1;
         grid-row: 5 / span 1;
         padding-left: 15px;
         padding-right: 15px;
     }
-    .grid-section .panel-5 .text {
+    .grid-section .canal-5 .text {
         line-height: 1.4;
         font-size: 0.9rem;
     }
